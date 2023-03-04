@@ -127,7 +127,7 @@ a:focus, a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 @media (max-width: 480px) {
   .section {
@@ -817,7 +817,7 @@ a:focus, a:hover {
 }
 .social-icon li a i {
   display: inline-block;
-  font-size: 20px;
+  font-size: 35px;
   line-height: 50px;
   margin: 0;
 }
@@ -971,7 +971,7 @@ a:focus, a:hover {
 .services .service-block i {
   font-size: 40px;
   color: #0011ff;
-  background: linear-gradient(100deg, #e1b9ff, #6e03c0);
+  background: linear-gradient(100deg, #e1b9ff, #af4efa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1001,6 +1001,11 @@ a:focus, a:hover {
     padding: 0 15px !important;
   }
 }
+
+.service-2 {
+  background-color: #faf2ff;
+}
+
 .service-2 .service-item {
   background: #fff;
   border: 1px solid #eee;
@@ -1014,7 +1019,7 @@ a:focus, a:hover {
   position: absolute;
   top: 0;
   left: 20px;
-  color: #f3f1f1;
+  color: #f6e8ff;
   font-weight: 700;
 }
 .service-2 .service-item i {

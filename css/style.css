@@ -888,11 +888,11 @@ a:focus, a:hover {
   background: none;
 }
 .portfolio-filter button:hover {
-  border-bottom: 2px solid #f0326b;
+  border-bottom: 2px solid #ffc7d8;
   color: #000;
 }
 .portfolio-filter button.active {
-  border-bottom: 2px solid #f0326b;
+  border-bottom: 2px solid #ffc9d9;
   color: #000;
 }
 
@@ -913,7 +913,7 @@ a:focus, a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(240, 50, 107, 0.9);
+  background: rgba(199, 184, 255, 0.9);
   transition: 0.3s all;
 }
 .portfolio-block:hover:before {
@@ -945,8 +945,8 @@ a:focus, a:hover {
   color: #fff;
 }
 .portfolio-block .caption .search-icon {
-  background: #f0326b;
-  color: #fff;
+  background: #ffffff;
+  color: rgba(178, 158, 252, 0.9);
   display: inline-block;
   padding: 4px 13px;
   font-size: 25px;
@@ -1052,11 +1052,13 @@ a:focus, a:hover {
   color: #f9f9f9;
 }
 
+
 /*=================================================================
   Our Team
   ==================================================================*/
 .team-member {
   background: #fff;
+  margin: 50px; 
   margin-bottom: 15px;
 }
 .team-member:hover img {
@@ -1090,18 +1092,19 @@ a:focus, a:hover {
   margin-right: 7px;
 }
 .team-member .member-content ul li a {
-  font-size: 18px;
+  font-size: 28px;
   padding: 10px;
 }
 .team-member .member-content ul li a i {
-  color: #f0326b;
-  background: linear-gradient(100deg, #f9643d, #fe2a77);
+  color: #9369b3;
+  background: linear-gradient(100deg, #9369b3, #9369b3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .team-member .member-content ul li a:hover {
-  background-color: #6cb670;
+  background-color: #ead2fd;
   border: 1px solid transparent;
+  border-radius: 6px;
 }
 .team-member .member-photo {
   overflow: hidden;
